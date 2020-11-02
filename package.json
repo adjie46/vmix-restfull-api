@@ -1,0 +1,37 @@
+{
+  "name": "vmix-restfull-api",
+  "version": "1.0.0",
+  "description": "VMIX Restfull API",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adjie46/vmix-restfull-api.git"
+  },
+  "keywords": [
+    "VMIX",
+    "Restfull",
+    "API"
+  ],
+  "author": "Adjie Kurniawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adjie46/vmix-restfull-api/issues"
+  },
+  "homepage": "https://github.com/adjie46/vmix-restfull-api#readme"
+}
